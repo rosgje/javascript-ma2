@@ -1,0 +1,28 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+
+Function objects are created with function literals. We can say that function literals have four main parts. A function literal is an expression that defines an unnamed function. The first part is the reserved function word. The second part of the function literal is the functions name. The name of the function can be used to call itself several times. The name can also be used to debug and identify the function, which becomes handy in certain situations. However, if the function has no name, we call it “anonymous”. The third part of the function literal is the parameters, which is wrapped inside a parentheses. The last and fourth one is the set of statements that we wrap inside curly braces. 
+
+2. What is the constructor?
+
+In JavaScript, the constructor method is a method where we can create and initialize an object within a class. We can say that the constructor owns the code that is displayed. Also, only one constructor method is allowed in a class, otherwise we will end up with an error. Once a constructor is invoked in the code, actions like a new empty object will be created. The object is passed to the constructor and becomes the context of the constructor. The reason why we use constructors is to create and set up a new object and return it as the value. 
+
+3. What does the return statement do?
+
+In JavaScript we use the return statement, and it plays an essential role in functions and can do much. Once a return statement is reached, the function will stop immediately. Also, any code after a return statement will not be executed. 
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+
+This is code displaying a function and a return statement. Once the return statement is written, everything after will not be written to the console. So this means that “inside my function” will be written to the console because it was written in the return statement in the beginning of the function. 
+
+5. Briefly describe scope in JavaScript.
+
+JavaScript has function scope, which means that each function creates a new scope. The scope determines the visibility of these variables and variables inside a function are not visible from outside the function. A scope refers to the context of your code. We have various types of scopes, Global scope and Local scope. Any variable declared outside of a function, belongs to the global scope. 
+Global scoping happens once you define a variable. Firstly, we declare a global variable. The global variable is in the global scope, which means that the following functions have access to it outside the function. The functions that are displaying have access to the global variable. The functions use access to the global variable to print out what is written in that global variable to the console.  
+Local scoping or also known as Function scoping is defined inside a function. In comparison to global scoping, function scoping is therefore only accessible from that function and any nested functions. 
